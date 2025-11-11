@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+    background: linear-gradient(180deg, #000000, #430000, #000000);
+    margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    grid-template-rows: auto 1fr auto; 
+  grid-template-columns: 1fr;
+}
+header{
+    background-color: rgb(80, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+    padding: 2px 20px;
+  
+  
+
+}
+.menu a:hover{
+    color:rgb(0, 0, 0);
+     font-style: oblique;
+     text-shadow: 2px 3px 2px #3f0000;
+}
+
+.menu{
+gap: 25px;
+display: flex;
+margin: 0;
+padding: 0;
+list-style: none;
+ margin-left: 10px;
+
+}
+
+.menu a{
+    color: rgb(171, 130, 75);
+    text-decoration:none;
+  font-family: "Mystery Quest", system-ui, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ text-shadow: 2px 3px 2px #4c0000;
+ font-size: 20px;
+  text-decoration: underline;
+  padding: 10px 8px;
+ 
+}
+
+
+
+nav{
+    margin-right: 43px;
+    text-align: right;
+    padding-top: 35px;
+    margin-top: 4px;
+    margin-left: 1px;
+    flex-shrink: 0;
+}
+
+.logo h1{
+  font-family: "Mystery Quest", system-ui, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 3px 2px #430000;
+  margin-top: 30px;
+  color: rgb(171, 130, 75);
+    margin-left: 50px;
+  
+}
+
+.logo h1:hover{
+    color:rgb(0, 0, 0) ;
+    font-style: oblique;
+    text-shadow: #000000;
+   cursor: default;
+   
+}
+
+.perfil-logo {
+    width: 80px;
+    height: 80px ;
+margin-top: 10px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+
+.FranBow {
+width: 140px;
+height: 200px;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+
+
+footer{
+    background-color:  rgb(74, 0, 0);
+    padding-bottom: 1%;
+   
+}
+
+footer p{
+margin-bottom: 1px;
+    text-align: center;
+
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+.footer-link {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.footer-link:hover {
+  color: rgb(171, 130, 75);
+  transform: scale(1.05);
+}
+
+.galeria-container {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* ou flex-start se quiser à esquerda */
+  gap: 10px;
+  padding: 20px;
+}
+
+.galeria-itens img {
+    width: 100%; 
+    height: 90%;
+  display: block;
+}
+
+.galeria-itens{
+    width: 400px; /* ajusta o tamanho da coluna */
+ 
+}
+
